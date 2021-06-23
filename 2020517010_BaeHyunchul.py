@@ -7,6 +7,12 @@ Created on Sat Jun 19 09:18:35 2021
 20210619 - 기본 코딩 적용
        to_do :  필요한 곳에 주석 및 설명 달기 
                 불용어에 대한 내용 확인 후  수정 및 추가 
+                
+20210615 - TextRank 활용에 대한 스터디 
+# https://joolib.tistory.com/21
+# https://bab2min.tistory.com/552
+# https://koreascience.or.kr/article/JAKO201835146902030.pdf
+                
 """
 
 from newspaper import Article
@@ -147,8 +153,3 @@ for row in textrank.summarize(1): ## 1줄로 요약
     print()
     
 print('keywords :',textrank.keywords())  ## 10개의 keyword
-
-
-# https://joolib.tistory.com/21
-# https://bab2min.tistory.com/552
-# https://koreascience.or.kr/article/JAKO201835146902030.pdf
